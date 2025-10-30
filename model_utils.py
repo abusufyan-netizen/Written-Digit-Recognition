@@ -39,7 +39,7 @@ def load_or_train_model():
 
     # Train for a small number of epochs (fast). Increase epochs for better accuracy.
     with st.spinner("Training model (fast mode)..."):
-        model.fit(x_train, y_train, epochs=3, validation_split=0.1, verbose=2)
+        model.fit(x_train, y_train, epochs=5, validation_split=0.1, verbose=2)
 
     model.save(MODEL_PATH)
     return model
