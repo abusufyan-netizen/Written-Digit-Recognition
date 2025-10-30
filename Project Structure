@@ -1,0 +1,11 @@
+mnist-chatbot/
+├─ .github/
+│  └─ workflows/
+│     └─ ci.yml            # optional CI
+├─ app.py                 # Streamlit app (main)
+├─ model_utils.py         # train/load helpers
+├─ requirements.txt
+├─ runtime.txt            # python runtime (optional)
+├─ .gitignore
+├─ README.md
+└─ Dockerfile             # optional (for other hosts)
